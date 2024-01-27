@@ -27,5 +27,5 @@ const observer = new ResizeObserver(() => {  //mudanças no tamanho do elemento
   console.log({ container });
   console.log({ numColumns });
 });
-//observando a mudança do elemento
+
 observer.observe(container);
