@@ -1,0 +1,26 @@
+{
+  "name": "spotify-imersao",
+  "version": "1.0.0",
+  "description": "Meu projeto da Imersão Alura",
+  "main": "index.html",
+  "scripts": {
+    "start": "json-server --watch api/artists/artists.json --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Natalia Araujo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliarauj/spotify-imersao-alura.git"
+  },
+  "keywords": [
+    "spotify"
+  ],
+  "bugs": {
+    "url": "https://github.com/nataliarauj/spotify-imersao-alura/issues"
+  },
+  "homepage": "https://github.com/nataliarauj/spotify-imersao-alura#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
